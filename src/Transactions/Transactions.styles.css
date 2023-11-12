@@ -1,0 +1,65 @@
+.container {
+  background: #c6eeff;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.selectors {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.selectors > div {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.table {
+  flex: 0.9;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.loader {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyTable {
+  text-align: center;
+}
+
